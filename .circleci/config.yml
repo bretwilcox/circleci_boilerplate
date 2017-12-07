@@ -18,7 +18,7 @@ jobs:
       - checkout
       - run:
           name: Test Greeting
-          command: echo "Hello again. It is me. Your friendly neighborhood Automated QA Engineer."
+          command: echo "Hello again! It is me. Your friendly neighborhood Automated QA Engineer."
 workflows:
   version: 2
   build-deploy:
